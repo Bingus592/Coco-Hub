@@ -20,6 +20,10 @@ end)
 local ScriptsSection = Scripts:NewSection("Game Scripts")
 
 
+ScriptsSection:NewButton("(Arabic Fortnite) Gun Mods", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZLfF3qa0', true))()
+end)
+
 ScriptsSection:NewButton("(Arsenal) DexHub V2", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
