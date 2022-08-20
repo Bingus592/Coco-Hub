@@ -21,18 +21,18 @@ end)
 local ScriptsSection = Scripts:NewSection("Game Scripts")
 
 
-ScriptsSection:NewButton("(Jailbreak) Autorob/Kill Aura GUI", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
-end)
-
-ScriptsSection:NewButton("(Jailbreak) Vynixus Jailbreak", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+ScriptsSection:NewButton("(Arsenal) DexHub V2", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
 
 ScriptsSection:NewButton("(Bee Swarm Simulator) Kocmoc GUI", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
 end)
 
-ScriptsSection:NewButton("(Arsenal) DexHub V2", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
+ScriptsSection:NewButton("(Jailbreak) Autorob/Kill Aura GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+ScriptsSection:NewButton("(Jailbreak) Vynixus Jailbreak", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
 end)
