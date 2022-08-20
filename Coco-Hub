@@ -2,10 +2,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Coco Hub", "Ocean")
 
 local Scripts = Window:NewTab("Script Hub")
-local ScriptsSection = Scripts:NewSection("Universal Scripts")
-local ScriptsSection = Scripts:NewSection("Game Scripts")
 
 -- UNIVERSAL SCRIPTS
+local ScriptsSection = Scripts:NewSection("Universal Scripts")
+
 ScriptsSection:NewButton("Eclipse Hub", "Launches Ecliplse Hub", function()
     getgenv().mainKey = "nil"
 
@@ -18,6 +18,8 @@ end)
 
 
 -- GAME SCRIPTS
+local ScriptsSection = Scripts:NewSection("Game Scripts")
+
 ScriptsSection:NewButton("(Arabic Fortnite) Gun Mod GUI", "ButtonInfo", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/ZLfF3qa0', true))()
 end)
