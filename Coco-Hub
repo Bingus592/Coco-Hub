@@ -3,23 +3,24 @@ local Window = Library.CreateLib("Coco Hub", "Ocean")
 
 local Scripts = Window:NewTab("Script Hub")
 local ScriptsSection = Scripts:NewSection("Universal Scripts")
+local ScriptsSection = Scripts:NewSection("Game Scripts")
 
 -- UNIVERSAL SCRIPTS
-ScriptsSection:NewButton("Infinite Yield FE", "Launches Infinite Yield FE", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
 ScriptsSection:NewButton("Eclipse Hub", "Launches Ecliplse Hub", function()
     getgenv().mainKey = "nil"
 
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end)
 
+ScriptsSection:NewButton("Infinite Yield FE", "Launches Infinite Yield FE", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 
 -- GAME SCRIPTS
-local ScriptsSection = Scripts:NewSection("Game Scripts")
-
+ScriptsSection:NewButton("(Arabic Fortnite) Gun Mod GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZLfF3qa0', true))()
+end)
 
 ScriptsSection:NewButton("(Arsenal) DexHub V2", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
