@@ -15,6 +15,10 @@ ScriptsSection:NewButton("Infinite Yield FE", "Launches Infinite Yield FE", func
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+ScriptsSection:NewButton("Telekinesis", "Gives You A Telekinesis Tool", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bingus592/Telekineses/main/Script'))()
+end)
+
 
 -- GAME SCRIPTS
 local ScriptsSection = Scripts:NewSection("Game Scripts")
