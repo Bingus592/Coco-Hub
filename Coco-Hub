@@ -36,6 +36,10 @@ ScriptsSection:NewButton("(Bee Swarm Simulator) Kocmoc GUI", "ButtonInfo", funct
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
 end)
 
+ScriptsSection:NewButton("(Build A Boat For Treasure) Vynixus Build A Boat For Treasure", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+end)
+
 ScriptsSection:NewButton("(Jailbreak) Autorob/Kill Aura GUI", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 end)
