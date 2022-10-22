@@ -5,10 +5,18 @@ local Scripts = Window:NewTab("Script Hub")
 local ScriptsSection = Scripts:NewSection("Universal Scripts")
 
 -- UNIVERSAL SCRIPTS
+ScriptsSection:NewButton("Ctrl Click Teleport", "Ctrl+Lclick=Teleport", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bingus592/Script/main/CtrlClickTP'))()
+end)
+
 ScriptsSection:NewButton("Eclipse Hub", "Launches Ecliplse Hub", function()
     getgenv().mainKey = "nil"
 
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+ScriptsSection:NewButton("Flip Script (Cannot Undo)", "Allows you to flip", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bingus592/Flip-Script/main/Flip'))()
 end)
 
 ScriptsSection:NewButton("Infinite Yield FE", "Launches Infinite Yield FE", function()
